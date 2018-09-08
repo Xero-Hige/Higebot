@@ -1,0 +1,72 @@
+# 1
+## 20/09/2018
+* Burocracia gral
+	* Asignación de cursos
+	* Link para ingresar sus datos (mail, práctica, etc) → En la página de la materia.
+	* Tenemos que solucionar los temas de los condicionales, tienen que llenar sus datos si o si esta semana, recalquen que
+	* Resolver los casos especiales (cambios, etc. Lo hablamos cuando termine la práctica)
+* Aclarar dudas sobre lo que ya dijo Diego en la teórica:
+	* Régimen de cursada (ejercicios obligatorios, parcialitos, tps, notas, grupos).
+	* Regimen de promocion (disponible en la página).
+* Recordar con mucho énfasis en NO COPIAR (Cero tolerancia)
+	* Nota al pie, recordarles que ante cualquier problema hablen con nosotros antes de meter la pata así
+* Recordar direcciones de (Ya las dio Diego):
+	* Sitio de la materia (www.algoritmos7540-rw.tk)
+	* La lista de correo
+	* Cómo hacer preguntas (el link a la presentación está en el sitio web)
+	* Los calendarios de la facultad y de la materia
+		* En el calendario está el aula de cada dia para cada práctica
+	* El apunte
+	* La guía de ejercicios
+* Pedirles que si tienen notebooks (y se animan) que por favor las traigan
+* Reglas básicas de convivencia (nunca está mal recordarlas):
+	* Aclaraciones particulares que crean pertinentes para cada práctica en particular
+* Hablar de Python, la versión que vamos a usar y cómo hacer para instalarlo. Usamos Python 3.6.x en la página de la materia está el tutorial para instalarlo.
+	* En windows no olvidar setear que configure las variables de entorno
+* Mostrar cómo iniciar el intérprete para que puedan empezar a experimentar
+* Mostrar el uso básico del intérprete (Como salir del intérprete, etc. Help queda para la otra clase que hay funciones)
+	* Operaciones simples con números (`+`, `-` ,`*`, `/`)
+	* Probar en las pcs las mismas funciones para ver que todo estalla (`-` y `/`)
+* Dejarles algo fácil de tarea como para asegurarse de que instalen el intérprete: Averiguar qué pasa cuando haces `import this`. Alguien tiene que pasar la próxima clase a explicar qué es lo que pasa y que es.
+* Actividad adicional: Describirles una película/serie/juego y proponerles que la próxima clase alguien diga cual es.
++ Tarea: [`import this`]
++ Nota de clase:
+	```
+	```
+
+# 2
+## 20/09/2018
+* Verificar que a todos les están llegando los mails de la lista / que todos hayan completado el formulario web (hay X al momento de este mensaje)
+* Recordarles normas de la lista y el how to de los mails
+* Solicitar la información faltante de los cambios de curso (Hige arma una planilla y se la da a cada curso. Si puedo el viernes mismo hago los cambios, sino el lunes próximo a más tardar)
+* Resolución de la trivia de la semana
+	* Hablar un toque sobre formas eficientes de buscar cosas en internet
+	* Hablar un toque sobre cómo explicar las cosas de forma que se puedan reproducir y sobre cómo eso es en definitiva programar
+* Definición de funciones
+	* Definir una función básica (saludar ya la da Diego, piensen algo copado)
+	* `def`, `return`, parametros
+	* Ejecutarla en la consola para ver que “anda”
+* Preguntar si todos pudieron instalar el intérprete (preguntarles qué pasó con import this)
+	* Lean en sus casas el zen de Python y recalquen los puntos más importantes como la simplicidad y claridad
+* Escribir la función en un archivo .py
+	* Hablar de IDEs y editores de texto plano
+		*  Ojo con thony para hacer cosas grandes
+* Diferencias entre intérprete y archivo
+	* Archivo queda, intérprete se va
+	* En el archivo los returns no se muestran (duh)
+* print [ojo, print vs return es el próximo lunes]
+* Mostrar cómo es la ejecución de programas en archivos `.py` desde la terminal
+* Bibliotecas (como cosas que ya vienen en python).
+	* Uso básico de la biblioteca `math`: `math.pi` y `math.sqrt` / operador `**`
+	* Uso de help
+	* Ejercitarlo con 1.2.b
+* Ciclos definidos con `for`
+	* Ejercicio básico 1.5 b [Hacerlo sobre un archivo]
+	* Hacerlo más genérico metiendo `input`
+* Ejercicio 1.4
+	* Hacer un seguimiento de las variables
++ Tarea: [Ejercicio 1.6]
++ Nota de clase:
+	```
+	El orden de los temas es una sugerencia al igual que los tiempos.
+	```
