@@ -5,7 +5,6 @@ def render_class(class_data, practica=None):
     if not class_data:
         return "ERROR"
 
-    print(practica)
     output = f"# Clase Numero {class_data['number']}\n\n"
     for i, topic in enumerate(class_data["topics"]):
         if practica:
