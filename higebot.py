@@ -1,5 +1,4 @@
 import json
-import os
 import time
 
 from slackclient import SlackClient
@@ -18,10 +17,14 @@ string_responses = {"che": lambda: "Au?",
                     "que hay que dar hoy": lambda: "Eh... da lo que quieras, hoy no hay clases",
                     }
 
-commands = {"\\casillas": show_casillas}
+commands = {"\\casillas": get_mailbox_data}
 
 asignaciones = {}
-people={}
+
+people = {
+    AT_BOT: "General"
+}
+
 
 def store_assignments():
     with open("asignment.json", "w") as output:
