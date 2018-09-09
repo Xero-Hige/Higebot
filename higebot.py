@@ -220,7 +220,7 @@ def parse_slack_output(slack_rtm_output):
         for output in output_list:
             if output and 'text' in output:
                 if DEBUG:
-                    print(f"DEBUG: " + output['text'])
+                    print("DEBUG: " + output['text'])
                 if has_someone(output['text']):
                     return "mention", output['text'].split(' '), output['channel'], output['event_ts']
                 elif is_command(output['text']):

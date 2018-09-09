@@ -5,16 +5,16 @@ def render_class(class_data, practica=None):
     if not class_data:
         return "ERROR"
 
-    output = f"# Clase Numero {class_data['number']}\n\n"
+    output = "# Clase Numero {}\n\n".format(class_data['number'])
     for i, topic in enumerate(class_data["topics"]):
         if practica:
             output += "[{}]\n".format(practica.get(str(i), "no asignado")).upper()
         topic = topic.replace("\t*", "\t\t\t\t\t\t*")
         output += "(Tema {:02d}) {}".format(i, topic)
     if class_data["homework"]:
-        output += f"\n### Tarea ###\n\t" + class_data['homework']
+        output += "\n### Tarea ###\n\t" + class_data['homework']
     if class_data["notes"]:
-        output += f"\n###Notas:###\n\t" + class_data['notes']
+        output += "\n###Notas:###\n\t" + class_data['notes']
 
     return output
 
