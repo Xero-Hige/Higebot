@@ -66,9 +66,9 @@ def delete_from_plan(command):
         store_assignments()
         return "OK"
     elif old:
-        return f"Deja de querer robar temas. Ese lo tiene {old.upper()} no {name}"
+        return "Deja de querer robar temas. Ese lo tiene " + old.upper() + " no " + name
     else:
-        return f"Nadie nunca jamas quiso dar eso"
+        return "Nadie nunca jamas quiso dar eso"
 
 
 def add_to_plan(command):
@@ -99,7 +99,7 @@ def add_to_plan(command):
         store_assignments()
         return "OK"
     else:
-        return f"{old.upper()} ya tomo ese tema"
+        return old.upper() + "ya tomo ese tema"
 
 
 def show(command):
@@ -214,13 +214,13 @@ def is_command(text):
 
 def parse_slack_output(slack_rtm_output):
     if DEBUG:
-        print(f"DEBUG: {slack_rtm_output}")
+        print("DEBUG: " + slack_rtm_output)
     output_list = slack_rtm_output
     if output_list and len(output_list) > 0:
         for output in output_list:
             if output and 'text' in output:
                 if DEBUG:
-                    print(f"DEBUG: {output['text']}")
+                    print(f"DEBUG: " + output['text'])
                 if has_someone(output['text']):
                     return "mention", output['text'].split(' '), output['channel'], output['event_ts']
                 elif is_command(output['text']):

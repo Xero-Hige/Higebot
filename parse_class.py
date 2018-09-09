@@ -12,9 +12,9 @@ def render_class(class_data, practica=None):
         topic = topic.replace("\t*", "\t\t\t\t\t\t*")
         output += "(Tema {:02d}) {}".format(i, topic)
     if class_data["homework"]:
-        output += f"\n### Tarea ###\n\t{class_data['homework']}"
+        output += f"\n### Tarea ###\n\t" + class_data['homework']
     if class_data["notes"]:
-        output += f"\n###Notas:###\n\t{class_data['notes']}"
+        output += f"\n###Notas:###\n\t" + class_data['notes']
 
     return output
 
